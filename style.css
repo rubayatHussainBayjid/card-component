@@ -1,0 +1,109 @@
+*, ::after, ::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: #0D1A2D;
+    height: 100vh;
+    position: relative;
+}
+
+.container {
+    width: 280px;
+    height: 78vh;
+    background-color: #15273F;
+    border-radius: 1rem;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5rem;
+    transform: translate(-50%);
+    margin-left: 50%;
+    position: relative;
+}
+
+.picture img {
+    margin-top: 1rem;
+    width: 245px;
+    height: 245px;
+}
+
+.st-pera {
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: -6rem;
+    margin-top: .8rem;
+}
+
+.st-pera:hover {
+    color: #00fff8;
+    cursor: pointer;
+}
+
+.nd-pera {
+    color: #6F85A5;
+    margin-left: 0rem;
+    margin-top: 1rem;
+
+}
+
+.duretion {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.2rem;
+}
+    
+.angle {
+    color: #00fff8;
+    letter-spacing: .1rem;
+}
+
+.angle img {
+    margin-bottom: -.2rem;
+}
+
+.clock {
+    color: #8BACD9;
+}
+
+.clock img {
+    margin-bottom: -.2rem;
+}
+
+.row {
+  background-color: #8BACD9;
+  width: 245px;
+  height: 1px;
+  display: flex;
+  transform: translate(-50%);
+  margin-left: 50%;
+  margin-top: 1.2rem;
+  border-radius: 1rem;
+}
+
+.little img {
+    width: 2.5rem;
+    height: auto;
+}
+
+.little {
+    display: flex;
+    justify-content: start;
+    margin-left: 1.1rem;
+    margin-top: 1rem;
+}
+
+.little p {
+    margin-top: .6rem; 
+    margin-left: 1rem;
+    color: white;
+}
+
+.little p a {
+    text-decoration: none;
+    margin-left: .2rem;
+    color: #00fff8;
+}
+
